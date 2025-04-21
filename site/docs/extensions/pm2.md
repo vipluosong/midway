@@ -17,6 +17,7 @@ $ pm2 start   	# 启动一个服务
 $ pm2 list    	# 列出当前的服务
 $ pm2 stop			# 停止某个服务
 $ pm2 restart		# 重启某个服务
+$ pm2 reload		# 创建新进程并接管完所有http/https后再完毕旧进程（适用于web应用）
 $ pm2 delete		# 删除某个服务
 $ pm2 logs			# 查看服务的输出日志
 ```
